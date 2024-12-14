@@ -102,36 +102,4 @@ root.title("Файлы")
 root.geometry("500x500+400+200")
 name = ""
 
-button = tk.Button(root, text="Выбрать файл", command=vibor_file)
-button.pack(pady=30)
 
-entry = tk.Entry(root)
-entry.pack(pady=30)
-
-input_button = tk.Button(root, text="Вписать число", command=save_input_number)
-input_button.pack(pady=10)
-
-output_label = tk.Label(root, text="")
-output_label.pack(pady=10)
-
-entry1 = tk.Entry(root)
-entry1.pack(pady=10)
-
-entry2 = tk.Entry(root)
-entry2.pack(pady=10)
-
-calc_add_button = tk.Button(root, text="Сложить", command=lambda: mini_calculator('add'))
-calc_add_button.pack(pady=5)
-
-calc_subtract_button = tk.Button(root, text="Вычесть", command=lambda: mini_calculator('subtract'))
-calc_subtract_button.pack(pady=5)
-
-calc_divide_button = tk.Button(root, text="Разделить", command=lambda: mini_calculator('divide'))
-calc_divide_button.pack(pady=5)
-
-
-root.withdraw()
-
-input_name_window()
-
-root.mainloop()
