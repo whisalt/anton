@@ -102,8 +102,6 @@ root.title("Файлы")
 root.geometry("500x500+400+200")
 name = ""
 
-
-
 button = tk.Button(root, text="Выбрать файл", command=vibor_file)
 button.pack(pady=30)
 
